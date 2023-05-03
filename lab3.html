@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Jop application</title>
+   <link rel="icon" type="image/x-icon" href="alogo.png">
+</head>
+
+<body>
+   <img src="Jubilee-Logo-Black.png" alt="photo" width="600" height="400">
+   <div>
+      <h1>Job application form</h1>
+      <p>
+         In 2023 Bethlehem University will be celebrating its golden jubilee as the first registered university in
+         Palestine with a mission to serve the Palestinian people through education. This Catholic university persevered
+         through many challenges over the past few decades. As we look back and gratefully remember the work and
+         dedication of the many people who have enabled Bethlehem University to grow into what it is today, we look
+         forward to the 50th jubilee and beyond.
+      </p>
+   </div><br>
+   <div>
+      <form action="/action_page.php">
+         <div>
+            <fieldset>
+               <legend>Name:</legend>
+               <label for="fname">First name and last name</label><br><br>
+               <input type="text" id="fname" name="fname"><br><br>
+            </fieldset>
+         </div><br>
+         <div>
+            <fieldset>
+               <legend>Gender:</legend>
+                <input type="radio" id="Male" name="Gender" value="Male">
+                <label for="Male">Male</label><br>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female">Female</label><br>
+
+
+            </fieldset>
+         </div><br>
+         <div>
+            <fieldset>
+               <legend>Email:</legend>
+                 <label for="email">Enter your email:</label><br><br>
+               <input type="email" id="email" name="email">
+            </fieldset>
+         </div><br>
+         <div>
+            <fieldset>
+               <legend>Number:</legend>
+               <label for="phone">Enter a phone number:</label><br><br>
+               <input type="tel" id="phone" name="phone" placeholder="0599-222-333" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
+                  required><br><br>
+
+            </fieldset>
+         </div><br>
+         <div>
+            <fieldset>
+               <legend>Which position(s) are you interested in? </legend>
+               <input type="checkbox" id="Position1" name="Position1" value="Position1">
+               <label for="Position1">Position 1</label><br>
+               <input type="checkbox" id="Position2" name="Position2" value="Position2">
+               <label for="Position2">Position 2</label><br>
+               <input type="checkbox" id="Position3" name="Position3" value="Position3">
+               <label for="Position3"> Position 3</label><br>
+            </fieldset>
+         </div><br>
+         <div>
+            <fieldset>
+
+               <label for="fname">Submit your cover letter or resume</label><br><br>
+               <input type="text" id="letter" name="letter"><br>
+            </fieldset>
+         </div>
+         <input type="submit" value="Submit">
+
+      </form>
+
+   </div><br>
+
+</body>
+
+</html>

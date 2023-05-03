@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>lab4</title>
+      <link rel="icon" type="image/x-icon" href="alogo.png">
+
+        <style>
+            .item1 { grid-area: header; }
+            .item2 { grid-area: menu; }
+            .item3 { grid-area: main; }
+            .item4 { grid-area: right; }
+            .item6 { grid-area: left; }
+            .item5 { grid-area: footer; }
+            
+            .grid-container {
+              display: grid;
+              grid-template-areas:
+                'header header header header header header'
+                'left left left right right right'
+                'menu menu menu main main main'
+                'footer footer footer footer footer footer';
+              gap: 10px;
+              background-color: #7d8e9b;
+              padding: 10px;
+              
+            }
+            
+            .grid-container > div {
+              background-color: rgba(255, 255, 255, 0.8);
+              text-align: center;
+              padding: 70px 0;
+              font-size: 30px;
+              
+            }
+            </style>
+
+    </head>
+
+    <bode>
+        <div class="grid-container">
+            <div class="item1">
+                <img src="bu.png" alt="Bu" style="width:100px;height:120px;">
+                <h2>Alaa Abuzer</h2>
+            </div>
+            <div class="item2">
+                <h3>Personal information</h3>
+                <ul>
+                    <li>Name: Alaa Abuzer</li>
+                    <li>From: palestine </li>
+                    <li>Bethlehem Univesity</li>
+                    <li>Major: Software engineering</li>
+                  </ul> 
+            </div>
+            <div class="item3">
+                <h4>Software engineering</h4>
+                <p>A software engineer is a person who applies the
+                     principles of software engineering to design, 
+                     develop, maintain, test, and evaluate computer
+                      software. The term programmer is sometimes used 
+                      as a synonym, but may also lack connotations of 
+                      engineering education or skills.</p>
+            </div>  
+            <div class="item4">
+                <h3>Bethlehem Univesity</h3>
+                <p>Bethlehem University is a Catholic co-educational
+                     institution in the Lasallian tradition whose 
+                     mission is to provide quality higher education 
+                     to the people of Palestine and to serve them in 
+                     its role as a center for the advancement, sharing 
+                     and use of knowledge.</p>
+            </div>
+            <div class="item6">
+                <h4>Bethlehem City</h4>
+                
+                <p>Bethlehem (/ˈbɛθlɪhɛm/; Bayt Laḥm;Bet Leḥem)
+                   is a city in the central West Bank, 
+                   Palestine, about 10 km  south of Jerusalem. 
+                   Its population is approximately 25,000,</p>
+                       
+            </div>
+            <div class="item5">By Alaa Abuzer - palestine 2022</div>
+          </div>
+    </bode>
+</html>
